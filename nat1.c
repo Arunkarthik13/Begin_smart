@@ -2,7 +2,7 @@
 void main()
 {
 int n,i,s=0;
-printf("Enter the naturalnumber limit:");
+printf("Enter  limit:");
 scanf("%d",&n);
 for(i=1;i<n;i++)
 {
