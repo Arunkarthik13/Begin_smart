@@ -13,10 +13,10 @@ void main() {
    }
    if(a==r)
    {
-printf("Armstrong number");
+printf("Yes");
 }
 else
 {
-    printf("not Armstrong");
+    printf("No");
 }
 }
