@@ -15,8 +15,7 @@ void main() {
    }
    if(i==r)
    {
-printf(" the armstrong numbers are %d",i);
-    
-}
-}
+printf(" the armstrong numbers are %d",i);   
+   }
+   }
 }
