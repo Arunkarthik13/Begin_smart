@@ -11,26 +11,12 @@ void main() {
    }
    if(count==0)
    {
-   printf("prime");
+   printf("yes");
    printf("\n");
    }
    else
    {
-       printf("not prime");
+       printf("no");
    }
-   n=a;
-   while(n>0)
-   {
-       s=n%10;
-       r=r*10+s;
-       n=n/10;
-   }
-   if(a==r)
-   {
-printf("palindrome");
-}
-else
-{
-    printf("not palindrome");
-}
+  
 }
