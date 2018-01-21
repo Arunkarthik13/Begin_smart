@@ -2,7 +2,7 @@
 void main()
 {
 int n,i,s;
-printf("Enter the number limit:");
+printf("Enter the  two number:");
 scanf("%d",&n,&i);
 s=n+i;
   printf("%d",s);
