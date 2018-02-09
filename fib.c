@@ -10,6 +10,6 @@ void main() {
        n=f+s;
        f=s;
        s=n;
-      printf("\nThe fibanacci is:%d",n);
+      printf("\t%d",n);
    }
  }
