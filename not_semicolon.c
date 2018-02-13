@@ -3,7 +3,7 @@ void main()
 {
     int a[10];
     printf("Enter the string:");
-    scanf("%s",a);
+    scanf("%s",&a);
     if(printf("\n%s",a))
     {
         
