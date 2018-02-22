@@ -3,7 +3,7 @@
 void main()
 {
   char a[20];
-  int i,j,c;
+  int i;
   printf("\nEnter the strings:\n");
   scanf("%s ",&a);
  for(i=0;a[i]!='\0';i++)
@@ -13,7 +13,7 @@ void main()
         printf("\t%c",a[i]);
     }
  }printf("\n");
-     for(i=1;a[i]!='\0';i++)
+     for(i=0;a[i]!='\0';i++)
     {
         if((i%2)!=0)
         {
