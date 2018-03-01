@@ -17,7 +17,7 @@ void main()
    }
  }
   }
-    if(count>c)
+    if(count>0)
   {
       printf("\n not aisogram");
   }
