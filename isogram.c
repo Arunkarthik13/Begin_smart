@@ -11,19 +11,18 @@ void main()
  {
  for(i=j+1;a[i]!='\0';i++)
  {
-   if(a[j]!=a[i])
+   if(a[j]==a[i])
    {
        count++;
    }
  }
   }
-  printf("\nTHE VALUE IS");
-  if((count)==c)
+    if(count>c)
   {
-      printf("\nisogram");
+      printf("\n not aisogram");
   }
   else
   {
-      printf("not a isogram");
+      printf(" a isogram");
   }
 }
