@@ -9,7 +9,7 @@ while(n!=1)
     n=n/2;
     c++;
 }
-for(i=0;i<=c+1;i++)
+for(i=0;i<c+1;i++)
 {
     x=x*b;
 }
