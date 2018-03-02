@@ -11,7 +11,7 @@ while(n!=1)
 }
 for(i=0;i<=c+1;i++)
 {
-    x=i*b;
+    x=x*b;
 }
 printf("\nThe nearest power of 2 is:%d",x);
 }
