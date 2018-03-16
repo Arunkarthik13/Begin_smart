@@ -1,12 +1,23 @@
 #include <stdio.h>
 void main()
 {
-    int l,h,a,b,c,d;
+    int a[20],b[20],i,n;
+    char ch[20];
     printf("Enter the number :\n");
-    scanf("%d %d\n %d %d \n%d %d ",&l,&h,&a,&b,&c,&d);
-   l=l / h;
-   a=a % b;
-   c=c % d;
-   printf("%d\t %d \t%d",l,a,c);
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+            scanf("%d %c %d\n  ",&a[i],&ch[i],&b[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(ch[i]=='/'){
+   printf("%d\t",(a[i]/b[i]));
+        }
+        else
+        {
+            printf("%d\t",(a[i]%b[i]));
+            }
+    }
    
 }
